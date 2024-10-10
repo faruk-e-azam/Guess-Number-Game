@@ -11,7 +11,6 @@ function init() {
     initialScore.innerHTML = 20;
     message.innerHTML = 'Start guessing....';
     randomNum = Math.floor(Math.random() * 20) + 1;
-    console.log(randomNum);
     document.getElementById("inp--num").value = '';
 }
 init();
